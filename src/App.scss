@@ -1,0 +1,37 @@
+@import 'variables';
+
+.app {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.get-users {
+  background-color: $primary-color;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.user-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+  text-align: center;
+
+  img {
+    width: 100%;
+    border-radius:
